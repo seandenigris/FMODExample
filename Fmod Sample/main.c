@@ -6,12 +6,11 @@
 //  Copyright (c) 2013 Sean DeNigris. All rights reserved.
 //
 
-#define FMOD_H "/Volumes/Sean/Smalltalk/Sandbox/FMOD/FMOD Programmers API/api/lowlevel/inc/fmod.h"
 #define SOUND_FILE_PATH "/Users/sean/Documents/Microsoft User Data/Entourage Script Menu Items/trainwhistle.mp3"
 
 #include <stdio.h>
 #include <stdlib.h>
-#include FMOD_H
+#include "FMOD Programmers API/api/lowlevel/inc/fmod.h"
 
 int exitOnError(int errCode)
 {
